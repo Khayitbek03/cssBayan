@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+}
+.bayan_inner_title {
+  color: brown;
+}
+.bayan_label {
+  cursor: pointer;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.wrapper {
+  padding: 2.604vw;
+  background-color: aquamarine;
+}
+
+.inner_bayan {
+  max-width: 58.5vw;
+  margin: 0 auto;
+  background-color: black;
+  padding: 2.3vw 2.3vw;
+  cursor: pointer;
+}
+
+.bayan_items {
+  border-bottom: 0.2vw solid yellow;
+}
+
+.bayan_headline {
+  font-size: 3.2vw;
+  font-weight: 700;
+  margin-bottom: 3.1vw;
+  color: brown;
+  border-bottom: 0.2vw solid yellow;
+}
+
+.bayan_flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bayan_input {
+  appearance: none;
+}
+
+.bayan_inner_title {
+  font-size: 2.2vw;
+  transition: 0.5s ease-in-out;
+}
+
+.bayan_images {
+  width: 0;
+  margin: 0 auto;
+  transition: 0.5s ease-in-out;
+}
+
+.bayan_input:checked ~ label .bayan_images {
+  width: 28.2vw;
+  padding: 1.8vw 0;
+}
+
+.bayan_input:checked ~ label .bayan_flex h2 {
+  color: navajowhite;
+}
+
+.inner_bayan:hover .bayan_inner_title {
+  color: navajowhite;
+}
+
+.bayan_items:hover .bayan_images {
+  width: 28.2vw;
+  padding: 1.8vw 0;
+}
