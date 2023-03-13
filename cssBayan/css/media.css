@@ -3,6 +3,10 @@
     color: navajowhite;
   }
 
+  .bayan_input:checked ~ label .bayan_flex h2 {
+    color: navajowhite;
+  }
+
   .bayan_items {
     border-bottom: 0.6vw solid yellow;
   }
@@ -33,6 +37,10 @@
 
 @media (max-width: 320px) {
   .bayan_inner_title {
+    color: navajowhite;
+  }
+
+  .bayan_input:checked ~ label .bayan_flex h2 {
     color: navajowhite;
   }
 
